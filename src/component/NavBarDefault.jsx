@@ -70,28 +70,25 @@ class NavBarDefault extends Component {
                 <button className="btn btn-outline-light my-1 my-sm-1" type="submit">Search</button>
               </form>
             </FormGroup>
-            <Nav className="ml-auto colorhover" navbar>
+            <Nav className="ml-auto positiontitle" navbar>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav className="titlemenu">
-                  ADD
+                  My Work
                 </DropdownToggle>
                 <DropdownMenu right>
-                <button className="buttonlink" type="button">New Picture</button>
-                    <button className="buttonlink" type="button">New project</button>
-                    
-                    
-
+                    <button className="buttonlink" type="button">Sky & Moon</button>
+                    <button className="buttonlink" type="button">Walk in Nature</button>
+                    <button className="buttonlink" type="button">Moving</button>                                   
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav className="titlemenu">
-                  LOGIN
+                  AcerSenseï 
                 </DropdownToggle>
                 <DropdownMenu right>
-                   Your profile 
-                   Your projects
-                  
-                </DropdownMenu>
+                <button className="buttonlink" type="button">About me</button>
+                <button className="buttonlink" type="button">Contact me</button>
+               </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
           </Collapse>

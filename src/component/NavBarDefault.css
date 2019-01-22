@@ -42,15 +42,18 @@
 
 .positionsearch {
   margin: auto;
+ 
 }
 
 .searchalign {
   display: flex;
   align-items: center;
+  margin-left: 8vw;
 }
 
 .searchBar{
   width: 100%;
+
 }
 
 /* Link Add and Login */
@@ -60,15 +63,14 @@
   font-size: 1.2em;
   font-family: cursive;
   font-weight: bold;
+  margin-left: 1em;
 }
 
-.displaymenu {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  padding: 5%;
+.positiontitle {
+  padding-right: 3vw;
   align-items: center;
 }
+
   .buttonlink {
     border: none;
     background-color: white;
@@ -78,6 +80,7 @@
     font-size: 1.2em;
     cursor: pointer;
     padding-bottom: 1vh;
+
   }
 
 
